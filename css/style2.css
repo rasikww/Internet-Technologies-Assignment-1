@@ -133,10 +133,10 @@ body {
   background-color: #b0c6fe;
 }
 
-.footer{
-    position: relative;
+
+.footer {
     display: block;
-    top: auto;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -145,7 +145,8 @@ body {
     font-size: larger;
     font-weight: bold;
     z-index: -1;
-}
+  
+  }
 
 .image{
     width: 30%;
@@ -153,14 +154,15 @@ body {
 }
 
 .name{
-  padding-left: 15px;
-  width: 110px;
-  height: auto;
-  text-align: center;
-  vertical-align: middle;
-}
+    padding-left: 15px;
+    width: 110px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
 
-.stickyBar{
-  position: sticky;
-  top: 0;
-}
+  .stickyBar{
+    position: sticky;
+    top: 0;
+  }
+
