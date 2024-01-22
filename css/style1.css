@@ -148,14 +148,17 @@ body {
 }
 
 .image{
-    width: 30%;
+    width: 100%;
     min-width: 54px;
+
 }
 
 .name{
   padding-left: 15px;
-  width: 110px;
-  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: auto;
+  height: 100px;
   text-align: center;
   vertical-align: middle;
 }
@@ -164,3 +167,30 @@ body {
   position: sticky;
   top: 0;
 }
+
+.td{
+  padding-left: 15px;
+}
+
+.mainDiv{
+  width: 520px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-height:870px){
+  .footer{
+    position: absolute;
+    display: block;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2D3250;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+    z-index: -1;
+}
+} 
